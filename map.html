@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="app-title">linefinder</h1>
+            <nav id="map-nav">
+                <a href="map.html" id='map-link'>Map</a>
+                <a href="trails.html" id='trails-link'>Trails</a>
+                <!-- <a id='signup-link'>Sign Up</a> -->
+                <a href="userhome.html" id='home-link'>Favorites</a>
+                <a href="./" id="home">Log Out</a>
+
+            </nav>
+        </header>
+        <main id="map-page">
+            <div id="googleMap"></div>
+            <div id="info-card"></div>
+        </main>
+        <footer></footer>
+        <!-- <script src ="index.js"></script> -->
+        <script src="map.js"></script>
+        <script type='text/javascript' src='config.js'></script>
+        <script>
+            const api_key = config.API_KEY
+        </script>
+        <script src ="https://maps.googleapis.com/maps/api/js?key=api_key&callback=initMap"></script>
+    </body>
+</html>

@@ -1,0 +1,264 @@
+body {
+    background-color:#c4bfb1
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: #6f6f6a
+}
+
+h1 {
+    margin: 0rem 0rem 1rem 0rem;
+    color: #131835;
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 1rem;
+    box-shadow: -1px 0px;
+    color: #131835;
+    padding-left: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    box-shadow: 0px 2px #131835;
+    color: #931724;
+    box-shadow: -1px 0px #131835;;
+    cursor: pointer
+}
+
+form {
+    background-color: #b7b3a1;
+    display: flex;
+    justify-content: center;
+    width: 17rem;
+    padding: 7rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    border-radius: 1rem 1rem 0 0;
+    flex-direction: column;
+    box-shadow: 0px 6px #931724;
+    background-image: url("https://media3.giphy.com/media/xUA7aKLVvFU9Zbapj2/giphy.gif?cid=e1bb72ff5b81f89a665251376bfaad06");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+nav {
+    margin-left: 1rem;
+    padding-bottom: .75rem
+}
+
+img {
+    width: 20rem;
+    height: 13rem
+}
+
+button {
+    margin: .25rem;
+    width: 16.3rem;
+    padding: .4rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    color: #131835;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem
+}
+
+button:hover {
+    color: #931724;
+}
+
+input[type='text'] {
+    margin: .25rem;
+    width: 15rem;
+    padding: .5rem;
+    border-radius: .3rem
+}
+
+input[type='password'] {
+    margin: .25rem;
+    width: 15rem;
+    padding: .5rem;
+    border-radius: .3rem
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #131835;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0rem
+}
+
+.map-trail-card {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    color: white
+}
+
+.dropbtn {
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: #931724;
+    color: white
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #931724;
+}
+
+.star-class {
+    width: 8rem
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#app-title {
+    background-color: #6f6f6a;
+    padding: 2rem 2rem .5rem .5rem;
+    color: #131835;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 5rem;
+    font-weight: lighter;
+    margin-top: 0;
+    box-shadow: 0px 2px #131835;
+
+}
+
+#trail-card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#trail-card-middle {
+    display: flex;
+    flex-direction: column
+}
+
+#trail-card {
+    color: #131835;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    background-color: #BEB7A3;
+    padding: 1.5rem;
+    width: 20rem;
+    border-radius: .25rem .25rem 0rem 0rem;
+    box-shadow: 0px 6px #931724
+}
+
+#map-page {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 6px #931724;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    height: 700px;
+}
+
+#googleMap {
+    display: flex;
+    width: 100%;
+    height: 700px
+}
+
+#info-card {
+    background-color: #b7b3a1;
+    width: 75%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center
+}
+
+#directions-link {
+    box-shadow: none;
+    vertical-align: center;
+    color: white
+}
+
+#directions-link:hover {
+    color: #931724
+}
+
+#map-card-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-top: 0rem
+}
+
+#sign-up-suggestion {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 4rem
+}
+
+#map-card-image {
+    padding-top: 2rem;
+    height: 15rem
+}
+
+#trail-nav {
+    margin: 0rem 0rem 1rem 1rem;
+    padding-bottom: .75rem
+}
+
+#drop-down {
+    display: inline;
+    box-shadow: none;
+    color: #131835;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    padding-bottom: 0;
+    font-size: 1.5rem
+}
+
+#filter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#filter {
+    margin-top: 4rem;
+    margin-bottom: .5rem;
+    box-shadow: 0px 3px #931724;
+    color: #131835;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 2.5rem
+}
+  
+#user-favorites {
+      margin-top: 3rem;
+      font-size: 3rem
+}
+
+#favorites {
+    display: flex;
+    justify-content: center
+}
